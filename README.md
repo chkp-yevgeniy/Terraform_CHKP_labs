@@ -12,7 +12,7 @@ A Check Point management server => R80.10
 Terraform 
 
 # Usage
-1. Activate API on Check Point management server
+1. Activate API on Check Point management server:  
 https://community.checkpoint.com/t5/API-CLI-Discussion/Enabling-web-api/td-p/32641
 
 
@@ -44,12 +44,12 @@ export CHECKPOINT_PORT="443"
 
 
 # References
-Terraform Check Point Provider:  
+Terraform Check Point Provider:    
 https://registry.terraform.io/providers/CheckPointSW/checkpoint/latest/docs
 
-Terraform introduction:
+Terraform introduction:  
 https://www.terraform.io/intro/index.html
 
-Enabling Check Point API:
+Enabling Check Point API:  
 https://community.checkpoint.com/t5/API-CLI-Discussion/Enabling-web-api/td-p/32641
 
