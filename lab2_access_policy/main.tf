@@ -1,5 +1,14 @@
 
 # Configure the Check Point Provider
+terraform {
+  required_providers {
+    checkpoint = {
+      source  = "checkpointsw/checkpoint"
+      version = "~> 1.6.0"
+    }
+  }
+}
+
 provider "checkpoint" {
     # Set them via env vars   
 }

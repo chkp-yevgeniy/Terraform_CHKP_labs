@@ -1,5 +1,5 @@
 variable "host2_ip" {
-  default="10.99.0.2"
+  default="10.100.0.2"
 }
 
 variable "host2_name" {  
@@ -10,7 +10,7 @@ variable "host3" {
   #type="map"
   default={
     name="host3"
-    ip="10.100.0.3"    
+    ip="10.101.0.3"    
   }
 
 }
